@@ -1,0 +1,10 @@
+{# TEST MITEMA package_basic_fields.html #}
+{% ckan_extends %}
+
+{% block package_basic_fields_org %}
+    {{ super() }}
+
+    <script>
+    console.log('BLOCK package_basic_fields_org: ejecutándose');
+    </script>
+{% endblock %}

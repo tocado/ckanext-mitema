@@ -1,0 +1,9 @@
+setup.py
+ckanext/ckanext_mitema.egg-info/PKG-INFO
+ckanext/ckanext_mitema.egg-info/SOURCES.txt
+ckanext/ckanext_mitema.egg-info/dependency_links.txt
+ckanext/ckanext_mitema.egg-info/entry_points.txt
+ckanext/ckanext_mitema.egg-info/not-zip-safe
+ckanext/ckanext_mitema.egg-info/top_level.txt
+ckanext/mitema/__init__.py
+ckanext/mitema/plugin.py
