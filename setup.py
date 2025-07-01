@@ -1,13 +1,15 @@
 from setuptools import setup, find_packages
+import sys, os
+
+version = '0.1'
 
 setup(
-    name='ckanext-mitema',
-    version='0.0.1',
+    name='mitema',
+    version=version,
     description='Tema personalizado para CKAN',
     author='Tu Nombre',
     license='MIT',
-    packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-    package_dir={'': 'ckanext'},        # ?? importante
+    namespace_packages=['ckanext'],
     include_package_data=True,
     zip_safe=False,
     entry_points='''
