@@ -7,7 +7,6 @@ setup(
     author='Tu Nombre',
     license='MIT',
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-    namespace_packages=['ckanext', 'ckanext.mitema'],
     package_dir={'': 'ckanext'},        # ?? importante
     include_package_data=True,
     zip_safe=False,
