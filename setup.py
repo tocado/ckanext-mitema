@@ -9,7 +9,7 @@ setup(
     description='Tema personalizado para CKAN',
     author='Tu Nombre',
     license='MIT',
-    namespace_packages=['ckanext'],
+    namespace_packages=['mitema'],
     include_package_data=True,
     zip_safe=False,
     entry_points='''
