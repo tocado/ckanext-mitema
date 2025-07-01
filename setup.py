@@ -1,4 +1,4 @@
-from setuptools import setup, find_packagesAdd commentMore actions
+from setuptools import setup, find_packages
 
 setup(
     name='ckanext-mitema',
@@ -7,7 +7,6 @@ setup(
     author='Adrian Figueroa',
     license='MIT',
     packages=find_packages(),  # ?? importante
-
     include_package_data=True,
     zip_safe=False,
     entry_points='''
@@ -17,3 +16,4 @@ setup(
         [ckan.templates]
         mitema=ckanext.mitema
     ''',
+)
