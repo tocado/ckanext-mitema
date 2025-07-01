@@ -12,9 +12,9 @@ setup(
     zip_safe=False,
     entry_points='''
         [ckan.plugins]
-        mitema=ckanext.mitema.plugin:MiTemaPlugin
+        ckanext-mitema=ckanext.mitema.plugin:MiTemaPlugin
 
         [ckan.templates]
-        mitema=ckanext.mitema
+        ckanext-mitema=ckanext.mitema
     ''',
 )
