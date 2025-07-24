@@ -7,6 +7,7 @@ setup(
     author='Adrian Figueroa',
     license='MIT',
     packages=find_packages(),  # ?? importante
+    package_dir={'':'.'},
     include_package_data=True,
     zip_safe=False,
     entry_points='''
