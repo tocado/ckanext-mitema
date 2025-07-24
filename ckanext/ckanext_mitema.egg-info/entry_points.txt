@@ -1,7 +1,0 @@
-
-        [ckan.plugins]
-        mitema=ckanext.mitema.plugin:MiTemaPlugin
-        
-        [ckan.templates]
-        mitema=ckanext.mitema
-    
