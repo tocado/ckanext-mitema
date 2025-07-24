@@ -4,7 +4,7 @@ from ckan.common import c
 import os
 import sys
 
-print('***** MITEMA PLUGIN MODULE LOADED *****', file=sys.stderr)
+#print('***** MITEMA PLUGIN MODULE LOADED *****', file=sys.stderr)
 class MiTemaPlugin(SingletonPlugin):
     implements(IConfigurer)
     implements(ITemplateHelpers)
@@ -15,7 +15,7 @@ class MiTemaPlugin(SingletonPlugin):
         import ckan.plugins.toolkit as toolkit
 
         template_dir = os.path.join(os.path.dirname(__file__), 'templates')
-        print('MI PLUGIN MITEMA - TEMPLATE DIR:', template_dir)
+#        print('MI PLUGIN MITEMA - TEMPLATE DIR:', template_dir)
         toolkit.add_template_directory(config, template_dir)
         toolkit.add_public_directory(config, 'public')
         toolkit.add_resource('fanstatic', 'mitema')
